@@ -1,0 +1,1 @@
+$(MP_EXTRA_AS_PRE)  -c -mprocessor=$(MP_PROCESSOR_OPTION) -DXPRJ_pic32mz=$(CND_CONF)    -Wa,--defsym=__MPLAB_BUILD=1$(MP_EXTRA_AS_POST),--gdwarf-2 -mdfp="${DFP_DIR}"C:\Firmware\H3 Apps\GHG\GHG_APP_V1\firmware\src\config\pic32mz\peripheral\cache\plib_cache_pic32mz.S
